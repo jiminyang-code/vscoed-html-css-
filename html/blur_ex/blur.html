@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>blur</title>
+<style>
+html,body {
+    height : 100%;
+    margin : 0;
+    font-family : Arial,Helvetica,sans-serif;
+}
+* {
+    box-sizing : border-box;
+}
+.image {
+    background-image : url(../../images/plane.jpg);
+    
+    filter : blur(8px);
+    -webkit-filter : blur(8px);
+
+    height : 100%;
+
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.text {
+    background-color : rgba(0,0,0,0.4);
+    color : white;
+    font-weight : bold;
+    border : 3px solid #f1f1f1;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    z-index : 2;
+    width : 80%;
+    padding : 20px;
+    text-align : center; 
+}
+</style>
+</head>
+<body>
+<div class = "image"></div>
+<div class = "text">
+<h2>FLY!</h2>
+<h1 style = "font-size : 50px">I am Ji Min</h1>
+<p>I'm a Pilot</p>
+</div>
+</body>
+</html>

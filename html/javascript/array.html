@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>배열</title>
+</head>
+<body>
+<h3>array</h3>
+<hr>
+<script>
+    var fruits = []; //배열선언
+        fruits = ["apple,","orange,","grape"];
+    
+        document.write(fruits[0]);
+        document.write(fruits[1]);
+        document.write(fruits[2]);
+        document.write("-->");
+        document.write(fruits.length);
+</script>
+<hr>
+<script>
+    document.write(fruits.pop()); //맨뒤에 제거
+    document.write(fruits);
+
+    console.log(fruits.length);
+
+    document.write(fruits.push('grape')); //맨뒤에 grape 추가
+    document.write(fruits.push('pear')); //맨뒤에 pear 추가
+    document.write(fruits);
+
+    console.log(fruits.length);
+</script>
+    document.write(fruits.shift()); //맨앞에 제거
+    document.write(fruits);
+
+    // alert(fruits.unshift('apple'));
+    // alert(fruits);
+    </script>
+</body>
+</html>

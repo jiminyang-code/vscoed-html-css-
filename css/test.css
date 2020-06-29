@@ -1,0 +1,22 @@
+ body {
+       border : 5px dotted purple;
+   }
+   div {
+       border : 2px solid yellowgreen;
+       color : blue;
+       background: aliceblue;
+   
+   }
+   hr {
+       border : 2px solid plum;
+   }
+   
+   span {
+       border : 3px dotted red;
+       background: yellow;
+      
+   }
+   h3 {
+       border : 3px solid skyblue;
+   
+   } 

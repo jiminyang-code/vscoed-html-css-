@@ -1,0 +1,52 @@
+h2 {
+    text-align :center;
+    color: brown;
+}
+body {
+    background-color: aliceblue;
+}
+form {
+    background-color: pink;
+}
+strong {
+    color : blue;
+}
+hr {
+    background-color :5px  black;
+}
+#round { 
+    border-radius :20px;
+    background : orange;
+}
+/* body {
+    background-color: aliceblue;
+}
+h3 {
+    text-align: center;
+    color: brown;
+}
+p {
+    font-family: "휴먼편지체";
+    font-size: 1em;
+    text-indent: 1em;
+}
+section {
+    background-color: pink;
+}
+article {
+    color: blue;
+    text-indent: 1em;
+
+}
+label {
+    color: black;
+    font-family: "휴먼편지체";
+    font-size: 1em;
+}
+footer {
+    border-radius: 50px;
+    background-color: orange;
+    font-family: "휴먼편지체";
+    font-size: 1em;
+    text-indent: 1em;
+} */

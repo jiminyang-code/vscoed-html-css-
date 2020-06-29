@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>object</title>
+</head>
+<body>
+<h3>오브젝트</h3>
+<hr>
+<!-- <script>
+var phone = {
+    model : '갤럭시S10',
+    company : 'Samsung'
+}
+document.write(phone.model);
+document.write(',');
+document.write(phone['company']);
+</script>
+<hr>
+<h3>변경</h3>
+<script>
+document.write(phone.model = 'V50');
+document.write(',');
+document.write(phone.company = 'LG');
+</script> -->
+<script>
+var car = {
+    name : 'carl',
+    model : 400,
+    color : 'black',
+
+    company : {
+        start : 1997,
+        logo : 'star'
+    },
+    run : function() {
+        alert('Car is running')
+    }
+};
+alert(car.company.start);
+car.run();
+</script>
+</body>
+</html>

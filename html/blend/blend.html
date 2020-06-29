@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>blend</title>
+<style>
+html,body {
+    height : 100%;
+}
+.blend { 
+    background-image: url(../../images/plane.jpg); 
+    background-color : red;
+    background-blend-mode: multiply;
+    background-size : cover;
+    height : 100%;
+    transition : background-color 5s;
+    border : 5px solid whitesmoke;
+}
+.blend:hover {
+    background-color : plum;
+}
+</style>
+</head>
+<body>
+<div class = "blend"></div>
+<div class = "filter"></div>
+</body>
+</html>

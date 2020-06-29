@@ -1,0 +1,90 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+hr {
+    border : 1px solid plum;
+}
+ul {
+    border : 1px dotted;
+}
+div {
+    font : normal 24px verdana;
+}
+#목차{
+    text-shadow :3px 3px 5px ;
+    color: blue;
+}
+#역사{
+    text-shadow :3px 3px 5px ;
+    text-decoration : none;
+    color: blue;
+}
+#안드로이드폰{
+    text-shadow :3px 3px 5px ;
+    color: blue;
+}
+#아이폰{
+    text-shadow :3px 3px 5px ;
+    color: blue;
+}
+#샘플{
+    text-shadow :3px 3px 5px ;
+    color: blue;
+}
+#설문조사 {
+    color: blue;
+}
+
+p {
+    margin : 1em; 
+    text-indent: 1em; 
+    font-size : 1em; 
+    color: black;
+    text-shadow: none; 
+    font-family: cursive;
+}
+pre {
+    margin : 1em; 
+    text-indent: 1em; 
+    font-size : 1em; 
+}
+#round { 
+    border-radius :20px;
+    background : orange;
+}
+/* body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+p {
+    font-family: "휴먼편지체";
+    font-size: 1em;
+    text-indent: 1em;
+}
+h3 {
+    color: blue;
+    text-shadow: 2px 2px 4px skyblue;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    border: 1px dotted black;
+}
+h5 {
+    color: blue;
+}
+footer {
+    border-radius: 20px;
+    background-color: orange;
+    font-family: "휴먼편지체";
+    font-size: 1em;
+    text-indent: 1em;
+} */

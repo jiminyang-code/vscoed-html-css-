@@ -1,0 +1,173 @@
+* {
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+}
+
+html,body { height : 100%;}
+body {
+    font-family : Circular,-apple-system,BlinkMacSystemFont;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.table{
+    /* display: table-cell ; */
+    width: 100% ;
+    vertical-align: middle ;
+}
+
+.section-1 {
+    background-image : url("https://a0.muscache.com/4ea/air/r:w3100-h2074-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg");
+    background-repeat : no repeat;
+    background-size: cover;  
+}
+.main-navi {
+    padding : 30px;
+    display : flex;
+    justify-content : flex-end;
+}
+.nav{
+    margin-left : 30px; 
+    color: #ffffff;
+    text-decoration:none;
+}
+.nav:hover {
+    cursor: pointer;
+}
+.main-form {
+    background-color : white;
+    margin-left : 7%;
+    margin-top : 4%;
+    padding : 32px 32px 24px 32px;
+    width : 480px;
+    height: 530px;
+    border-radius : 5px;
+    overflow : hidden;
+    box-shadow : 0 16px 40px rgba(0,0,0,0.12);
+}  
+.sub-form {
+    background-color : white;
+    margin-left : 7%;
+    margin-top : 1%;
+    width : 480px;
+    height: 230px;
+    border-radius : 5px;
+    overflow : hidden;
+    box-shadow : 0 16px 40px rgba(0,0,0,0.12);
+}
+/*main page 끝*/
+/*sub page 시작*/
+.sub-page {
+    margin-top : 30px;
+    padding : 10%;
+    /*가로축으로 패딩을 10% 줘서 양쪽 옆의 공간을 뛰움*/
+}
+.sub-page .text-1 {font-size : 24px; font-weight : 800;}
+.sub-page .text-2 {font-size :     ; font-weight :    ;}
+.sub-page .text-3 {font-size : 14px; font-weight : 800;}
+.sub-page .text-4 {font-size : 16px;}
+.sub-page .text-5 {font-size : 16px;}
+.look-around > .wrapper {
+    display : flex;
+}
+.look-around > .wrapper > div {
+    display : flex;
+    position : relative;
+    height : ;
+    width : ;
+    margin : ;
+    border-radius : ;
+    background-color : white;
+    border : 1px solid rgba(0,0,0,0.06) 0px 2px 4px 0px;
+}
+.look-around > .wrapper > div > .text {
+    width : ;
+    display : ;
+    flex-direction : ;
+    justify-content : ;
+    padding-left : ;
+}
+.text-1 {
+    font-size: small;
+}
+.main-form .form1 input {
+    width: 100%;
+    height: 46px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+}
+.main-form .form2 input {
+    width: 200px;
+    height: 46px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    
+}
+.main-form .form2{
+    display: inline-block;
+}
+#button {
+    background-color: #ff5a5f;
+    color: white;
+    width: 90px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 800;
+    font-size: 18px;
+}
+.main-form .form3 {
+    text-align: end;
+    padding: 10px 0px;
+}
+.form {
+    padding: 1.5px;
+}
+#button:hover {
+    cursor: pointer;
+}
+.bottom-text {
+ color: white;
+ text-align: end;
+ padding: 20px;
+}
+.container-1 {
+     width: 100%;
+     height: 15%;
+}
+.container-2 {
+    width: 100%;
+    height: 15%;
+}
+.container-3 {
+    width: 100%;
+    height: 15%;
+}
+.container-4 {
+    width: 100%;
+    height: 15%;
+}
+.container-5 {
+    width: 100%;
+    height: 15%;
+}
+body footer {
+   padding: 20px;
+   text-align: ;
+}
+.ftitle {
+    text-align: start;
+}
+.tbody {
+    vertical-align: center;
+}
+.logo {
+    display : flex;
+    justify-content : flex-start;
+    position: absolute;
+    left : 50px;
+    right : 30px;
+}

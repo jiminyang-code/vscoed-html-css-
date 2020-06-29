@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>absolute</title>
+<style>
+div {
+    display : inline-block;
+	position : absolute; /* 절대 배치 */
+	border : 1px solid lightgray;
+}
+div > p {
+	display : inline-block; /* div의 자식 p */
+   position : absolute; /* 절대 배치 */
+	height : 20px;
+	width : 15px;
+	background : lightgray;
+}
+hr { 
+    border : 3px solid red;
+}
+h3:first-letter {
+    color : red;
+}
+h4:first-letter {
+    color : green;
+
+}
+</style>
+</head>
+<body>
+<i><h4>Merry</h4></i>
+<i><h3>Christmas!</h3></i>
+<hr>
+<div>
+<img src = "/images/christmastree.png"
+     width = "200"
+     height = "200"
+     alt = "크리스마스트리">
+<p style = "left:50px;top:30px">M</p>
+<p style = "left:100px;top:0px">E</p>
+<p style = "left:100px;top:80px">R</p>
+<p style = "left:150px;top:110px">R</p>
+<p style = "left:30px;top:130px">Y</p>
+</div>
+</body>
+</html>

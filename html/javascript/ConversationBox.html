@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>대화상자</title>
+</head>
+<body>
+<h3>대화상자</h3>
+<hr>
+<script>
+var name = prompt('이름을 입력하세요','');
+alert(name); //메시지창
+document.write(name); //화면에 출력
+console.log(name); //디버깅 및 확인용
+
+var go = confirm('계속 진행하시겠습니까?');
+if(go) {
+    alert('진행하겠습니다.');
+}else {
+    alert('진행을 멈춥니다.');
+}
+</script>
+<script>
+var intervalID = setInterval(function() {
+    alert('1초 간격');
+}, 5000);
+
+</script>
+</body>
+</html>

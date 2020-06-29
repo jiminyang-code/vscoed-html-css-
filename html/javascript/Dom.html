@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>DOM</title>
+
+</head>
+<body>
+<h3>문서객체모델</h3>
+<hr>
+<div id = "eID">
+<div class = "eClass">Element1</div>
+<div class = "eClass">Element2</div>
+<div class = "eClass">Element3</div>
+<div class = "eClass">Element4</div>
+<div class = "eClass">Element5</div>
+<div class = "eClass">Element6</div>
+<div class = "eClass">Element7</div>
+</div>
+<script>
+    // document.write('Hello');
+    // document.write('<h1>Have a nice day!</h>');
+    
+    // var eID = document.getElementById('eID');
+    // eID.style.background = 'red';
+    // eID.style.color = 'yellow';
+    var eClass = document.querySelectorAll('.eClass');
+
+    for (var i = 0; i < eClass.length; i++) {
+        // alert(i);
+        eClass[0].style.color = "red";
+        eClass[1].style.color = "orange";
+        eClass[2].style.color = "yellow";
+        eClass[3].style.color = "green";
+        eClass[4].style.color = "blue";
+        eClass[5].style.color = "darkblue";
+        eClass[6].style.color = "purple";
+        eID.style.background = 'grey';
+    }
+
+    </script>
+</body>
+</html>

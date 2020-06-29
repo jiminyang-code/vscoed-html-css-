@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+</head>
+<body>
+<h3>Student</h3>
+<hr>
+<script>
+var student = [];
+student = ["홍길동,","김유신,","이순신"];
+
+document.write(student[0]);
+document.write(student[1]);
+document.write(student[2]);
+document.write("-->");
+document.write(student.length);
+</script>
+<hr>
+<h3>강감찬,문익점추가</h3>
+<script>
+document.write(student.push('강감찬'));
+document.write(student);
+
+// document.write(student.length);
+
+document.write(student.shift('문익점'));
+document.write(student);
+
+// console.log(student.length);
+</script>
+<hr>
+<h3>강감찬,문익점삭제</h3>
+<script>
+document.write(student.pop('강감찬'));
+document.write(student);
+
+document.write(student.unshift('문익점'));
+document.write(student);
+
+// console.log(student.length);
+</script>
+<hr>
+</body>
+</html>
